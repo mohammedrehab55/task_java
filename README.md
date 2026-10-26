@@ -1,33 +1,11 @@
 
 ## Test Accounts
 
-
-
 | Username | Password | Role |
 | --- | --- | --- |
 | `mohamed` | `1234` | Student |
 | `ahmed` | `5678` | TA |
 | `ali` | `9999` | Professor |
-
-## How It Works
-
-1. Enter a username and password, then choose a role.
-2. Click **Login**.
-3. The program validates the fields and looks up the user in an `ArrayList<User>`.
-4. If the credentials and role match, a welcome window displays the username and role.
-5. If the password is incorrect, the failed-attempt counter increases. After three incorrect password attempts, the Login button is disabled until the application is restarted.
-
-### Example Successful Login
-
-```text
-Username: mohamed
-Password: 1234
-Role: Student
-
-Login successful!
-Hello, mohamed
-Role: Student
-```
 
 
 ## Screenshots & Demonstration
